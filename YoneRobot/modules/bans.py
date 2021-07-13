@@ -29,7 +29,7 @@ from YoneRobot.modules.helper_funcs.chat_status import (
 )
 from YoneRobot.modules.helper_funcs.extraction import extract_user_and_text
 from YoneRobot.modules.helper_funcs.string_handling import extract_time
-from YoneRobot.modules.log_channel import gloggable, loggable
+
 
 
 @run_async
