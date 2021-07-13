@@ -11,7 +11,6 @@ from YoneRobot.modules.helper_funcs.chat_status import (
     user_admin,
     user_admin_no_reply,
 )
-from YoneRobot.modules.log_channel import loggable
 from YoneRobot.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import (
