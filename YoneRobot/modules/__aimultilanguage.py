@@ -116,7 +116,7 @@ async def hmm(client, message):
         test = msg
         test = test.replace("yone", "Aco")
         test = test.replace("yone", "Aco")
-        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@YoneRobot&ownername=@A_viyu"
+        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@ELIZABETHTG_bot&ownername=rosebakthan"
 
         try:
             r = requests.request("GET", url=URL)
@@ -179,7 +179,7 @@ async def hmm(client, message):
         # Kang with the credits bitches @InukaASiTH
         test = test.replace("yone", "Aco")
         test = test.replace("yone", "Aco")
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@ELIZABETHTG_bot&ownername=@rosebakthan"
         try:
             r = requests.request("GET", url=URL)
         except:
@@ -253,7 +253,7 @@ async def inuka(client, message):
     # Kang with the credits bitches @InukaASiTH
     test = test.replace("yone", "Aco")
     test = test.replace("yone", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@ELIZABETHTG_bot&ownername=@rosebakthan"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -275,7 +275,7 @@ async def inuka(client, message):
 
 
 @Yone.on_message(
-    filters.regex("yone|yone|Yone|Yone|Yone")
+    filters.regex("Elizabeth|Elizabeth|elizabeth|elizabeth|kidiloska")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -362,4 +362,4 @@ Yone AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  
 """
 
-__mod_name__ = "chatbot"
+__mod_name__ = "Chatbot"
