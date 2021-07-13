@@ -1,6 +1,6 @@
 #code by @nousername_psycho
 #-----------------------------------------req
-from cinderella import pbot as app
+from YoneRobot import pbot as app
 from pyrogram import filters
 from shazamio import Shazam
 import youtube_dl
@@ -126,6 +126,6 @@ __help__ = """
  X /find -  reply to a short video to find song. \ncode by @nousername_psycho 
 """
 
-__mod_name__ = "SHAZAM"
+__mod_name__ = "REV-SONG"
 
 
