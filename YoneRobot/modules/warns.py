@@ -22,7 +22,6 @@ from YoneRobot.modules.helper_funcs.extraction import (
 from YoneRobot.modules.helper_funcs.filters import CustomFilters
 from YoneRobot.modules.helper_funcs.misc import split_message
 from YoneRobot.modules.helper_funcs.string_handling import split_quotes
-from YoneRobot.modules.log_channel import loggable
 from YoneRobot.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
