@@ -126,6 +126,6 @@ __help__ = """
  X /find -  reply to a short video to find song. \ncode by @nousername_psycho 
 """
 
-__mod_name__ = "REV-SONG"
+__mod_name__ = "Rev_song"
 
 
